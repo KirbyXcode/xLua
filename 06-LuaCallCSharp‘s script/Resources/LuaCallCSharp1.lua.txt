@@ -1,0 +1,8 @@
+﻿local gameObject = CS.UnityEngine.GameObject
+
+local camera = gameObject.Find("Main Camera")
+
+--调用成员方法的时候，使用冒号
+local testScript= camera:GetComponent("TestScript")
+
+testScript:Debuger()
